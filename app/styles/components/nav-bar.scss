@@ -1,0 +1,39 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 1rem;
+  background: $c-secondary;
+  color: $c-primary;
+
+  @media only screen and (max-width: 500px) {
+    .nav__right {
+      display: none;
+    }
+  }
+
+  &__logo {
+  font-size: 1.5rem;
+  background: $c-primary;
+  color: $c-secondary;
+  letter-spacing: .4rem;
+  }
+
+  &__right {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  &-link {
+    margin-right: .5rem;
+    justify-content: space-around;
+    text-decoration: none;
+    color: $c-primary;
+
+    // &:hover {
+    //   text-decoration: underline;
+    // }
+  }
+  }
+}
