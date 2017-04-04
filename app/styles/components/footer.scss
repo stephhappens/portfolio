@@ -5,6 +5,7 @@
   // background: $c-primary;
   color: $c-primary;
   padding: 1rem 0;
+  margin-bottom: 2rem;
 
   &__copyright {
     text-align: center;
@@ -28,14 +29,10 @@
 
 .social-icon {
   font-size: 1.5rem;
-  margin: 1rem 0  0 1rem;
+  margin: 1rem 1rem  0 1rem;
   font-weight: 400;
 
   &:first-of-type {
     margin-left: 0;
-  }
-
-  &:hover {
-    text-decoration: underline;
   }
 }

@@ -17,7 +17,7 @@
   margin: 1rem;
 
   &__item {
-    flex-basis: calc(100% / 3 - 1rem);
+    flex-basis: calc(100% / 4 - 1rem);
     flex-grow: 1;
     margin: 0.5rem 1rem;
     // margin: -1rem;
@@ -26,5 +26,21 @@
     &-vertical {
       height: 20rem;
     }
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .grid {
+    display: flex;
+    // flex-grow: 1;
+    flex-wrap: nowrap;
+    width: 100%;
+  }
+  .grid__item {
+    // display: flex;
+    width: 100%;
+    flex-grow: 1;
+    // flex-direction: column;
+    // flex-wrap: wrap;
   }
 }
