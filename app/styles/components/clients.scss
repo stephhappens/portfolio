@@ -1,0 +1,12 @@
+.clients {
+  margin-top: 2rem;
+
+  &__img {
+    height: 6rem;
+    &::before {
+      display: block;
+      content: "";
+      padding-top: 100%;
+    }
+  }
+}

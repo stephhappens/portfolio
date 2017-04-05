@@ -4,6 +4,7 @@
 $font-stack: Lato, sans-serif;
 $c-primary: #333333;
 $c-secondary: #FFFFFF;
+$c-tertiary: #F3F3F3;
 $c-accent: #FF0DFF;
 $fa-font-path: '//netdna.bootstrapcdn.com/font-awesome/4.3.0/fonts';
 // @import 'font-awesome';
@@ -17,3 +18,4 @@ $fa-font-path: '//netdna.bootstrapcdn.com/font-awesome/4.3.0/fonts';
 @import 'components/content';
 @import 'components/footer';
 @import 'components/hover';
+@import 'components/clients';

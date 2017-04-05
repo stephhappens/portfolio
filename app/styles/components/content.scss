@@ -81,3 +81,27 @@
     // display: block;
   }
 }
+
+.about {
+  &__header {
+    font-size: 2rem;
+    font-weight: 300;
+  }
+
+  &__text {
+    padding-bottom: 0.2rem;
+    font-size: 1.2rem;
+
+    &-breakout {
+      padding-bottom: 0.2rem;
+      font-size: 1.7rem;
+    }
+  }
+}
+
+.clients {
+  &__header {
+    font-size: 2rem;
+    font-weight: 300;
+  }
+}

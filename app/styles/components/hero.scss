@@ -8,6 +8,10 @@
   background-size: cover;
   margin-bottom: 3rem;
 
+  &__about {
+    background: $c-tertiary;
+  }
+
   &__welcome {
     background: $c-secondary;
     opacity: 0.7;
