@@ -1,0 +1,39 @@
+.contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  // align-items: center;
+
+
+  &__info {
+    font-weight: bold;
+    font-size: 3rem;
+
+    &-wrap {
+      display: flex;
+      flex-direction: row;
+      margin-bottom: 2rem;
+    }
+
+    &-details {
+      margin-left: 2rem;
+      margin-top: 0;
+      margin-bottom: 0;
+      font-weight: 300;
+      align-items: flex-end;
+
+
+    }
+
+    &-resume {
+      text-decoration: none;
+      color: $c-primary;
+    }
+  }
+}
+
+.fa-envelope, .fa-phone {
+  color: $c-accent;
+  font-size: 2rem;
+}

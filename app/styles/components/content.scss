@@ -88,10 +88,29 @@
     font-size: 1.2rem;
 
     &-breakout {
-      border-left: .3rem solid $c-accent;
+      border-left: 0.3rem solid $c-accent;
       padding-left: 1rem;
       padding-bottom: 0.2rem;
       font-size: 1.7rem;
+    }
+  }
+}
+
+.portfolio {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+
+  &__header {
+    // align-items: center;
+    // border-bottom: .1rem solid $c-accent;
+    // width: 25%;
+    font-weight: 400;
+    letter-spacing: .5rem;
+    font-size: 1.5rem;
+
+    &-line {
+      color: $c-accent;
     }
   }
 }

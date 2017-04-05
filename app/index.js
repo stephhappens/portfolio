@@ -1,11 +1,14 @@
 import 'whatwg-fetch';
 const commands = [
   {
-    emoji: '🦄',
-    name: 'unicorn'
+    emoji: '😊',
+    name: 'smile'
   }, {
-    emoji: '✨',
-    name: 'sparkles'
+    emoji: '🎶 ',
+    name: 'music'
+  }, {
+    emoji: '🎵',
+    name: 'note'
   }
 ];
 
@@ -13,5 +16,7 @@ const commands = [
   commands.forEach(({ name, emoji }) => window.console[name] = (...args) => console.log(`${emoji} ${args.join(', ')}`));
 }
 
-console.unicorn('Hi! Thanks for taking a look at my work. I am currently seeking full-time employment.');
-console.sparkles('I would love to be your next employee! Reach me at stephanie.n.winn@gmail.com. Talk soon!');
+console.note('Never gonna give you up');
+console.music('Never gonna let you down');
+console.note('Never gonna run around and desert you');
+console.smile();
