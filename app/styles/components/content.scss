@@ -74,12 +74,7 @@
   flex-wrap: wrap;
   width: 100%;
   text-align: center;
-  //
-  &:hover {
-    //     .content__image-text {
-    // visibility: visible;
-    // display: block;
-  }
+
 }
 
 .about {
@@ -93,6 +88,8 @@
     font-size: 1.2rem;
 
     &-breakout {
+      border-left: .3rem solid $c-accent;
+      padding-left: 1rem;
       padding-bottom: 0.2rem;
       font-size: 1.7rem;
     }
