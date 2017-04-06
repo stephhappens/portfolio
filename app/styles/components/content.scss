@@ -37,6 +37,7 @@
   height: 100%;
 
   &-pic {
+    object-fit: contain;
     position: absolute;
     left: 0;
     top: 0;
@@ -54,26 +55,31 @@
 }
 
 .content__image-text {
-  margin: 0;
-  // position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  //
+  // margin: 0;
+  position: absolute;
+  top: 10%;
+  left: 0%;
+  height: 100%;
+  width: 100%;
   visibility: hidden;
   opacity: 1;
-  //
+
   color: $c-primary;
   font-weight: bold;
   z-index: 1;
-  font-size: 1.2rem;
-  //
+  font-size: 1rem;
+
   display: flex;
   flex-grow: 1;
   flex-direction: column;
   flex-wrap: wrap;
   width: 100%;
   text-align: center;
+  text-transform: lowercase;
+
+  *:hover > & {
+    visibility: visible;
+  }
 
 }
 
@@ -102,9 +108,6 @@
   text-align: center;
 
   &__header {
-    // align-items: center;
-    // border-bottom: .1rem solid $c-accent;
-    // width: 25%;
     font-weight: 400;
     letter-spacing: .5rem;
     font-size: 1.5rem;
@@ -112,5 +115,16 @@
     &-line {
       color: $c-accent;
     }
+  }
+}
+
+.project__image-link {
+  color: $c-primary;
+  text-decoration: none;
+  margin: 0;
+  width: 100%;
+
+  &:hover {
+    color: $c-accent;
   }
 }
