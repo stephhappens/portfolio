@@ -1,8 +1,6 @@
 .footer {
   display: flex;
   flex-direction: column;
-  // justify-content: space-around;
-  // background: $c-primary;
   color: $c-primary;
   padding: 1rem 0;
   margin-bottom: 2rem;
@@ -35,5 +33,9 @@
 
   &:first-of-type {
     margin-left: 0;
+  }
+
+  &-link {
+    color: inherit;
   }
 }
