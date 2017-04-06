@@ -13,37 +13,26 @@
 .grid {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
-  align-items: center;
   margin: 1rem;
 
   &__item {
     flex-basis: calc(100% / 4 - 1rem);
     flex-grow: 1;
     margin: 0.5rem 1rem;
-    // margin: -1rem;
-    // border: .1rem solid $c-primary;
-    // box-shadow: 0.2rem 0.2rem 0.4rem rgba(0, 0, 0, 0.4);
-
-
-    &-vertical {
-      height: 20rem;
-    }
+    flex-wrap: wrap;
+    min-width: 15rem;
   }
 }
 
-@media only screen and (max-width: 500px) {
+@media (min-width: 460px) and (max-width: 760px) {
   .grid {
-    display: flex;
-    // flex-grow: 1;
-    flex-wrap: nowrap;
-    width: 100%;
+    // display: flex;
   }
   .grid__item {
+    flex-basis: calc(100% / 1 - 1rem);
     // display: flex;
-    width: 100%;
+    min-width: 100%;
     flex-grow: 1;
     // flex-direction: column;
-    // flex-wrap: wrap;
   }
 }
