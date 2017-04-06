@@ -1,14 +1,10 @@
 .contact {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  text-align: center;
-  // align-items: center;
 
-
-  &__info {
-    font-weight: bold;
-    font-size: 3rem;
+  &__info, a {
+    font-weight: 300;
+    font-size: 1.3rem;
 
     &-wrap {
       display: flex;
@@ -16,14 +12,11 @@
       margin-bottom: 2rem;
     }
 
-    &-details {
-      margin-left: 2rem;
-      margin-top: 0;
-      margin-bottom: 0;
+    &-details, a {
+      border-left: .5rem solid $c-accent;
+      padding-left: 1rem;
+      margin-bottom: 1rem;
       font-weight: 300;
-      align-items: flex-end;
-
-
     }
 
     &-resume {
@@ -31,9 +24,4 @@
       color: $c-primary;
     }
   }
-}
-
-.fa-envelope, .fa-phone {
-  color: $c-accent;
-  font-size: 2rem;
 }
