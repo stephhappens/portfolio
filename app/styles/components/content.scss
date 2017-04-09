@@ -55,10 +55,9 @@
 }
 
 .content__image-text {
-  // margin: 0;
   position: absolute;
   top: 10%;
-  left: 0%;
+  left: 0;
   height: 100%;
   width: 100%;
   visibility: hidden;
@@ -81,6 +80,20 @@
     visibility: visible;
   }
 
+  @media only screen and (max-width: 500px) {
+    .content__image-pic {
+
+    }
+    .content__image-text {
+      display: flex;
+      flex-direction: column;
+      visibility: visible;
+
+      &:hover {
+        display: none;
+      }
+    }
+  }
 }
 
 .about {
@@ -109,7 +122,7 @@
 
   &__header {
     font-weight: 400;
-    letter-spacing: .5rem;
+    letter-spacing: 0.5rem;
     font-size: 1.5rem;
 
     &-line {

@@ -11,30 +11,30 @@
     .nav__right {
       display: none;
     }
+
+    .nav__logo {
+      font-size: 1rem;
+    }
   }
 
   &__logo {
-  font-size: 1.5rem;
-  // background: $c-primary;
-  color: $c-primary;
-  letter-spacing: .4rem;
-  text-decoration: none;
+    font-size: 1.5rem;
+    // background: $c-primary;
+    color: $c-primary;
+    letter-spacing: 0.4rem;
+    text-decoration: none;
   }
 
   &__right {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 
-  &-link {
-    margin-right: .5rem;
-    justify-content: space-around;
-    text-decoration: none;
-    color: $c-primary;
-
-    // &:hover {
-    //   text-decoration: underline;
-    // }
-  }
+    &-link {
+      margin-right: 0.5rem;
+      justify-content: space-around;
+      text-decoration: none;
+      color: $c-primary;
+    }
   }
 }

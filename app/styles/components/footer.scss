@@ -6,11 +6,21 @@
   margin-bottom: 2rem;
   margin-top: 2rem;
 
+  @media only screen and (max-width: 500px) {
+    .footer {
+      display: flex;
+      // font-size: 3rem;
+    }
+    .footer__copyright {
+      display: none;
+  }
+}
+
   &__copyright {
     text-align: center;
     margin: 1rem 2rem 0;
     font-weight: 400;
-    letter-spacing: .5rem;
+    letter-spacing: 0.5rem;
   }
 
   &__flex {
@@ -18,7 +28,7 @@
     flex-direction: column;
     text-align: center;
     justify-content: space-between;
-    font-size: .8rem;
+    font-size: 0.8rem;
 
     &-social {
       text-align: center;
@@ -28,7 +38,7 @@
 
 .social-icon {
   font-size: 1.5rem;
-  margin: 1rem 1rem  0 1rem;
+  margin: 1rem 1rem 0;
   font-weight: 400;
 
   &:first-of-type {
