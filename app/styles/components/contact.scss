@@ -2,7 +2,7 @@
   display: flex;
   flex-direction: column;
 
-    @media only screen (min-width: 350px) and (max-width: 736px) {
+    @media (min-width: 350px) and (max-width: 736px) {
       .contact__info {
         font-size: 1rem;
       }

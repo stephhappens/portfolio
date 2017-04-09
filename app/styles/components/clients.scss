@@ -7,7 +7,7 @@
 .clients {
   margin-top: 2rem;
 
-  @media only screen (min-width: 350px) and (max-width: 736px) {
+  @media (min-width: 350px) and (max-width: 736px) {
     .clients__img {
       display: flex;
       flex-direction: column;

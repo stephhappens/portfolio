@@ -6,7 +6,7 @@
   margin-bottom: 2rem;
   margin-top: 2rem;
 
-  @media only screen (min-width: 350px) and (max-width: 736px) {
+  @media (min-width: 350px) and (max-width: 736px) {
     .footer {
       display: flex;
       // font-size: 3rem;
