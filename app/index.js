@@ -1,4 +1,6 @@
 import 'whatwg-fetch';
+
+// Console Rick//
 const commands = [
   {
     emoji: '😊',
