@@ -2,6 +2,11 @@
   display: flex;
   flex-direction: row;
 
+  .content__change {
+    display: flex;
+    flex-direction: row;
+  }
+
   &__view {
     max-width: 50%;
     margin: 0 auto;

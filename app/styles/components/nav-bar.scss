@@ -1,11 +1,12 @@
 .nav {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   width: 100%;
   padding: 1rem;
   background: $c-secondary;
   color: $c-primary;
+  position: fixed;
 
   @media (min-width: 350px) and (max-width: 736px) {
     .nav__right {
