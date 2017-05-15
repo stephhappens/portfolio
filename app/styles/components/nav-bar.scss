@@ -7,6 +7,7 @@
   background: $c-secondary;
   color: $c-primary;
   position: fixed;
+  z-index: 1;
 
   @media (min-width: 350px) and (max-width: 736px) {
     .nav__right {
